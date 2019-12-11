@@ -1,0 +1,37 @@
+
+## Egyke programtervezési minta
+
+Az egyke programtervezési minta olyan programtervezési minta, amely egy objektumra korlátozza egy osztály létrehozható példányainak számát.
+Gyakori, hogy egy osztályt úgy kell megírni, hogy csak egy példány lehet belőle. Ehhez jól kell ismerni az objektumorientált programozás alapelveit.
+Az osztályból példányt a konstruktorával lehet készíteni. Ha van publikus konstruktor az osztályban, akkor akárhány példány készíthető belőle, tehát publikus konstruktora nem lehet az egykének. De ha nincs konstruktor, akkor nem hozható létre a példány, amin keresztül hívhatnánk a metódusait. A megoldást az osztályszintű (statikus) metódusok jelentik. Ezeket akkor is lehet hívni, ha nincs példány.
+Az egykének tehát van egy osztályszintű metódusa (szerezPéldány, angolul getInstance), ami minden hívójának ugyanazt a példányt adja vissza. Természetesen ezt a példányt is létre kell hozni, ehhez privát konstruktort kell készíteni, amit a szerezPéldány az egyke osztály tagjaként meghívhat.Néhányan vitatják az egyke mintát, és antimintának tekintik, mivel olyankor is használják, amikor nem célszerű. Ezzel szükségtelen korlátozásokat vagy globális állapotokat vezetnek be.
+
+# Felhasználása 
+
+Egykét csak akkor érdemes használni, ha a rendszer működhetne rendellenesen, vagy akár össze is omolna, ha abból az osztályból több objektumot is lehetne példányosítani. A homlokzatok gyakran egykék, mivel csak egy homlokzatra van szükség. Ilyenek még az állapot objektumok is.
+
+Az absztrakt gyártó, az építő és a prototípus minták használhatják az egyke mintát implementációjukban.
+A globális változókkal szemben gyakran az egykéket részesítik előnyben, mivel:Nem szennyezik a névteret szükségtelen változókkal.
+Lehetővé teszik a lusta allokációt és inicializációt, míg a globális változók mindig fogyasztanak erőforrásokat.
+
+# Megvalósítása 
+
+A megvalósításnak biztosítania kell, hogy:
+
+mindig egyetlen objektum létezik
+mindig legyen globális hozzáférés a példányhozEzt rendszerint így érik el:
+
+minden konstruktor privát
+osztálymetódus, ami visszaad egy referenciát a példányraA példányt rendszerint privát osztálypéldányként tárolják. A példány a változó inicializálásával jön létre, valamivel azelőtt, hogy az osztálymetódust meghívják. A következő egyszerű implementáció Javában készült:
+
+Az egyke használható lusta inicializációval. Ekkor a példány csak az osztálymetódus első hívásakor jön létre. Ha ezt párhuzamos környezetben használják, akkor biztosítani kell, hogy ne legyen race condition, különben több szál is létrehozhat egy példányt, ami kritikus a rendszer szempontjából, és annak összeomlását okozhatja. A következő Java példa duplán ellenőrzött zárolással használja a lusta példányosítást, így biztosítva a szálbiztosságot.
+
+# C# példakód 
+
+# Szálbiztos egyke C# példakód 
+
+# Jegyzetek 
+
+# Fordítás 
+
+Ez a szócikk részben vagy egészben a Singleton pattern című angol Wikipédia-szócikk fordításán alapul. Az eredeti cikk szerkesztőit annak laptörténete sorolja fel.

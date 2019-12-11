@@ -1,0 +1,70 @@
+
+## Enlightenment Foundation Libraries
+
+Az Enlightenment Foundation Libraries (Enlightenment alapkönyvtárak) vagy EFL, az Enlightenment.org fejlesztette nyílt forráskódú programkönyvtárak egy csoportja, ami az Enlightenment ablakkezelőből nőtt ki. A projekt fő célja egy hatékony és könnyen használható eszközkészlet megteremtése az Enlightenment 0.17-hez és más programokhoz. A könyvtárakat úgy tervezték, hogy hordozható legyen, és olyan korlátozott erőforrású beágyazott rendszereken is fusson, mint a PDA-k vagy a mobiltelefonok.
+
+# Központi elemei 
+
+# Evas 
+
+Az Evas az EFL rajzolókönyvtára. Ahol lehetséges, hardveres gyorsítást használ, de tervezése miatt az gyengébb felszereltségű hardveren is képes működni, akár gyengébb minőséggel és színmélységgel. A legtöbb rajzolókönyvtárral ellentétben pixel alapú (nem vektorgrafikus) és kezeli az állapotokat (a rajzolókönyvtárak nagy részének használatakor a programozónak kell számon tartani az objektumok állapotát).
+
+# Edje 
+
+Az Edje könyvtár segítségével szétválaszthatjuk a program kezelőfelületét és a programkódot. Lehetővé teszi, hogy a program kezelőfelületét a programkód megváltoztatása nélkül módosítsák, témákat hozzanak létre. A témákban a felület leírásához saját, C-szerű leírónyelvet használ (EDC), a kódot, képeket, betűtípusokat egy EET (ld. később) fájlba tömöríti (általában .edj kiterjesztéssel).
+
+# Ecore 
+
+Az Ecore egy eseménykezelőt és kényelmi funkciókat biztosító könyvtár. Egyszerű megoldást nyújt általános feladatokra. Moduláris felépítésű, azaz a programoknak csak azokat a könyvtárakat kell betölteniük, amire szükségük van. Az Ecore az eseményhurok (event loop) kezelése mellett megkönnyíti az X11-gyel való kommunikálást, az adatok kezelését, a hálózati kommunikációt és még sok mást.
+
+# Embryo 
+
+Az Embryo egy egyszerű scriptnyelv, amit az EFL könyvtárak használnak (pl. az Edje). C-szerű szintaxisa van és a Pawn programozási rendszeren alapul.
+
+# EET 
+
+Az EET segítségével tömörített archívumokat hozhatunk létre, amihez a programok nagy sebességgel tudnak hozzáférni. Ilyen EET archívumokat használ az Edje a témák tárolásához: a fájlban megtalálhatóak témában használt képek, betűtípusok és felületleíró fájlok. Az EET fájlokat nem kell teljes egészében kicsomagolni használat előtt, az adatok közvetlenül hozzáférhetőek.
+
+# További összetevők 
+
+# Imlib2 
+
+Alacsony szintű grafikai műveletekre képes könyvtár, rengeteg képformátumot támogat, amiket képes megjeleníteni és különböző módosításokat végezni rajta, mindezt nagy sebességgel.
+
+# EDB 
+
+Az EDB a BerkleyDB 2.7.7 köré írt API, a gyors és könnyű kezelhetőség jegyében született.
+
+# Exml 
+
+XML fájlok értelmezésére használható könyvtár, ami Ecore struktúrákat használ.
+
+# Epeg 
+
+Jpeg fájlokról képes előnézeti képeket gyártani, rendkívül kis idő alatt.
+
+# Epsilon 
+
+Előnézeti képek készítésére alkalmas könyvtár, ami kompatibilis a freedesktop.org Pillanatkép Kezelés Szabványával (Thumbnail Managing Standard). Az összes Imlib2 által támogatott képformátumot kezeli, JPEG esetén képes használni az Epeget.
+
+# Engrave 
+
+Edje fájlok szerkesztésére szolgáló API.
+
+# Esmart 
+
+"Ügyes" Evas objektumok (pl. beviteli mező) gyűjteménye, amik megkönnyítik a munkát.
+
+# EWL 
+
+Az EWL egy widget készlet, Edje támogatással. Ideális párbeszédablakok és a GUI más részeinek létrehozására.
+
+# ETK 
+
+Az ETK egy másik widget készlet. Felépítése nagyban hasonlít a GTK-ra.
+
+# Hivatkozások 
+
+Összefoglaló az EFL-ről
+Az Enlightenment weboldala
+Kiegészítők az Enlightenmenthez

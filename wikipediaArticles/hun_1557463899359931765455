@@ -1,0 +1,11 @@
+
+## Csacsi
+
+A csacsi kártyajáték, amit spanyol kártyával játszanak.
+
+# A játék menete 
+
+A cél négy azonos értékű kártya összegyűjtése a lapok cserélgetésével a következő módon: minden játékos kiválasztja az egyik kártyáját, amitől meg szeretne válni, a játékosok közösen elszámolnak háromig, és háromnál egyszerre odanyújtják a lapot a tőlük jobbra ülőnek és átvesznek egy másikat a balra ülőtől.
+Ha egy játékosnak sikerül négy azonos értékű kártyát összegyűjtenie, felkiált: "csacsi!", és az asztal közepére dobja a kártyáit. A többi játékos azonnal a nyertes kezére teszi a kezét, és az a vesztes, aki legkésőbb cselekszik így. 
+Ha két vagy több játékos egyszerre gyűjti össze a négy azonos kártyát, nem számít, ki kiáltja előbb, hogy "csacsi", a vesztes mindig az, aki a leglassabban teszi a kezét a többiekére.
+Aki egy kört veszít, leír egy betűt a "csacsi" szóból a saját papírjára. Aki befejezi a szót, kiesik, és az a játék végső győztese, aki a legkevesebb betűt írta le. Ha már csak két játékos maradt és mindketten ugyanannyi betűt írtak le addig, a játék döntetlen.

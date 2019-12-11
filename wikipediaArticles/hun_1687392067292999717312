@@ -1,0 +1,298 @@
+
+## Csillapítási tétel
+
+A csillapítási tétel a Laplace-transzformált egy fontos tulajdonságát mondja ki.
+Legyen az f valós, vagy komplex értékű függvény értelmezve a nem negatív valós számok halmazán, továbbá legyen szakaszonként folytonos, exponenciális függvénnyel korlátozható, és (jobbról) folytonos nullában. Jelölje f-nek az egzisztenciatétel miatt létező Laplace-transzformáltját F. Ha az s komplex szám valós része elég nagy, akkor
+
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ (
+ 
+ e
+ 
+ −
+ z
+ t
+ 
+ 
+ f
+ (
+ t
+ )
+ )
+ (
+ s
+ )
+ 
+
+ F
+ (
+ s
+ +
+ z
+ )
+ 
+ 
+ {\displaystyle {\mathcal {L}}(e^{-zt}f(t))(s)=F(s+z)}
+ ahol 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ a Laplace-operátor jele.
+
+# Következményei 
+
+A tétel következményeként kapható, hogy
+
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ (
+ 
+ e
+ 
+ α
+ t
+ 
+ 
+ sin
+ 
+ 
+ β
+ t
+ 
+ )
+ (
+ s
+ )
+ 
+
+ 
+ 
+ β
+ 
+ (
+ s
+ −
+ α
+ 
+ )
+ 
+ 2
+ 
+ 
+ +
+ 
+ β
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}(e^{\alpha t}\sin {\beta t})(s)={\frac {\beta }{(s-\alpha )^{2}+\beta ^{2}}}}
+ és
+
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ (
+ 
+ e
+ 
+ α
+ t
+ 
+ 
+ cos
+ 
+ 
+ β
+ t
+ 
+ )
+ (
+ s
+ )
+ 
+
+ 
+ 
+ 
+ s
+ −
+ α
+ 
+ 
+ (
+ s
+ −
+ α
+ 
+ )
+ 
+ 2
+ 
+ 
+ +
+ 
+ β
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}(e^{\alpha t}\cos {\beta t})(s)={\frac {s-\alpha }{(s-\alpha )^{2}+\beta ^{2}}}}
+ 
+
+# Bizonyítás 
+
+A tétel könnyen bizonyítható:
+
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ (
+ 
+ e
+ 
+ −
+ z
+ t
+ 
+ 
+ f
+ (
+ t
+ )
+ )
+ (
+ s
+ )
+ 
+
+ 
+ ∫
+ 
+ 0
+ 
+ 
+ ∞
+ 
+ 
+ 
+ e
+ 
+ −
+ s
+ t
+ 
+ 
+ 
+ e
+ 
+ −
+ z
+ t
+ 
+ 
+ f
+ (
+ t
+ )
+ 
+ d
+ 
+ t
+ 
+
+ 
+ ∫
+ 
+ 0
+ 
+ 
+ ∞
+ 
+ 
+ 
+ e
+ 
+ −
+ (
+ s
+ +
+ z
+ )
+ t
+ 
+ 
+ f
+ (
+ t
+ )
+ 
+ d
+ 
+ t
+ 
+
+ 
+ 
+ L
+ 
+ 
+ (
+ f
+ )
+ (
+ s
+ +
+ z
+ )
+ .
+ 
+ 
+ {\displaystyle {\mathcal {L}}(e^{-zt}f(t))(s)=\int _{0}^{\infty }e^{-st}e^{-zt}f(t)\mathrm {d} t=\int _{0}^{\infty }e^{-(s+z)t}f(t)\mathrm {d} t={\mathcal {L}}(f)(s+z).}
+ 
+
+# Források 
+
+Jegyzet a Pannon Egyetemről
+Jegyzet a Miskolci Egyetemről

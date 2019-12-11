@@ -1,0 +1,14 @@
+
+## DHT
+
+A DHT egy decentralizált, elosztott számítógépes rendszerben használt protokoll, ami lehetővé teszi, hogy adatokat lehessen kikeresni kulcsérték alapján. Az adatpárok a DHT-ben tárolódnak, és bármely résztvevő el tudja érni ezeket az adatpárokat egy értékük alapján. A kulcsok és értékek egymáshoz rendelése dinamikusan történik, elosztva a kapcsolódási pontok között olyan módon, hogy nagy számú kapcsolódási pont kezelhető. A DHT kezeli a kapcsolódási pontok belépését a rendszerbe, kilépését és az ezek során fellépő hibákat.
+Egyik felhasználási területe, hogy lehetővé teszi a tracker nélküli torrentek előállítását és használatát.
+
+# Működése 
+
+A DHT-t engedélyező felhasználók között létrejön egy adatbázis, ami tárolja, hogy kinél milyen torrent van. Azonban ez az adatbázis nincs központi szerveren, sőt egyben sehol sincs meg, csak a peer-ek alkotta „boly”-okban létezik, szétosztva a kliensek között, folyamatosan cserélődve.
+
+# Használata 
+
+A privát torrent oldalak (ahova a torrentek használatához be kell jelentkezni) kikapcsolják ezt a funkciót, mert a DHT-n forgalmazott adatmennyiséget nem látja a tracker, így nem is számolhatja el, és ebből adódhatnak félreértések. Ellenben a publikus oldalról letöltött torrentnek kifejezetten jól jön a dolog, mert ott sok peer névtelenül be tud kapcsolódni a forgalomba.
+Másik fontos felhasználási területe az, amikor privát anyagot szeretnénk eljuttatni ismerőseinkhez, mert elég csak a kis torrent fájlt átküldeni és azt a másik félnek megnyitnia egy torrent klienssel.

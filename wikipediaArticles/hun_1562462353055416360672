@@ -1,0 +1,36 @@
+
+## Compton-szórás
+
+A fizikában a Compton-szórás vagy más néven a Compton-hatás a fény rugalmatlan szóródása anyagon, amely akkor lép fel, ha nagy energiájú elektromágneses sugárzás és anyagi közeg kölcsönhatásba kerül. A jelenség jellemzően egy röntgenfoton és egy atomi pályán tartózkodó, kötött elektron ütközésének leírásával magyarázható. A beérkező foton az energiájának egy részét az ütközés során átadja az atomból kilökődő Compton-elektronnak, és emiatt kisebb energiával, (nagyobb hullámhosszal) hagyja el az atomot, továbbá pályája is eltérülhet.
+A jelenség rámutat arra, hogy pusztán klasszikus fizikai eszközökkel a fény-anyag kölcsönhatás leírása nem teljes, ugyanis a klasszikus Thomson-szórás nem írja le az alacsony intenzitású sugárzások szóródási folyamatainak hullámhosszfüggését. A Compton-hullámhossz határértéknek tekinthető, amelynél kisebb hullámhosszú (nagyobb energiájú) részecskék kvantummechanikai tulajdonságai figyelembe veendők.
+A nevét Arthur Holly Compton amerikai fizikusról kapta, aki a jelenséget kísérletileg kimutatta, és amely munkájáért 1927-ben Fizikai Nobel-díjban részesült.
+
+# Fizikai jellemzése 
+
+Arthur Compton röntgensugarakkal végzett szóródási kísérletek során vette észre, hogy a tárgyfelületen a sugarak megváltozott hullámhosszal és visszaverődési szöggel folytatják útjukat. A hullámhossz és az elhajlási szög közti összefüggésre érvényes:ahol me az elektron tömege, c a fénysebesség, h a Planck-állandó, θ az elhajlási szög. Megjegyzendő, hogy a Compton-szórás jelenségét csak úgy lehet értelmezni, hogy az elektromágneses sugárzást részecskék áramának tekintjük, melyben így a fotonok rugalmatlan ütközést szenvednek az elektronokon. A foton hullámhossza az E = hν alapján nő, mivel energiája az ütközés során csökken. Természetesen itt is fennáll, hogy a folyamat csak abban az esetben mehet végbe, ha a foton energiája elég nagy, hogy az elektront az atomból kilökje. A fentebbi összefüggésből következik, hogy ha θ = 180°, akkor a szórt foton energiája minimális, a Compton-elektroné maximális.
+
+# Jegyzetek 
+
+# Fordítás 
+
+Ez a szócikk részben vagy egészben a Compton scattering című angol Wikipédia-szócikk ezen változatának fordításán alapul. Az eredeti cikk szerkesztőit annak laptörténete sorolja fel.
+
+# Források 
+
+# Szakkönyvek 
+
+Nagy Lajos György, László Krisztina. Radiokémia és izotóptechnika (egyetemi tankönyv). Budapest: Műegyetemi Tankönyvkiadó (1983). ISBN 963-17-6363-3 
+Budó Ágoston, Mátrai Tibor, Hornyák László. 344. §. A Compton-effektus; a foton impulzusa, Kísérleti Fizika III. - Optika és atomfizika. Nemzeti Tankönyvkiadó Rt (1999). Hozzáférés ideje: 2017. december 1. 
+Sólyom Jenő: A modern szilárdtest-fizika alapjai II: Fémek, félvezetők, szupravezetők. Budapest: ELTE Eötvös Kiadó. 2010. ISBN 9789633120286 
+
+# Tudományos közlemények 
+
+Compton, Arthur H. (1923). „A Quantum Theory of the Scattering of X-rays by Light Elements”. Physical Review 21 (5), 483–502. o, Kiadó: Amerikai Fizikai Társaság. DOI:10.1103/physrev.21.483. (Hozzáférés ideje: 2017. május 16.) 
+Christopher Ivan Moore (1995). „Observation of the Transition from Thomson to Compton Scattering in Optical Multiphoton Interactions with Electrons” (angol nyelven) (PDF), Rochester, New York, Kiadó: Rochester University. 
+S. Chen et al. (2006). „Measurement of Deeply Virtual Compton Scattering with a Polarized-Proton Target”. Physical Review Letters 97 (7), Kiadó: Amerikai Fizikai Társaság. DOI:10.1103/physrevlett.97.072002. (Hozzáférés ideje: 2017. május 16.) 
+
+# Tananyagok, ismeretterjesztő weblapok 
+
+A Compton-szórás. oktatas.ch.bme.hu. (Hozzáférés: 2017. december 1.)
+Compton Scattering. hyperphysics.phy-astr.gsu.edu. Georgia State University. (Hozzáférés: 2017. december 1.)
+A fény részecske természete | Fizika - 11. évfolyam | Sulinet Tudásbázis. tudasbazis.sulinet.hu. (Hozzáférés: 2017. december 1.)
